@@ -49,19 +49,21 @@ body {
     font-size: 1rem;
 }
 
-#next-btn {
+#previous-btn {
+
     position: absolute;
     left: 50%;
     z-index: 2;
     margin-top: 10px;
 }
 
-#previous-btn {
+#next-btn {
     position: absolute;
     left: 50%;
     bottom: 0;
     z-index: 2;
     margin-bottom: 10px;
 }
+
 
 /******** //Buttons ********/
