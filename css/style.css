@@ -55,13 +55,6 @@ body {
     display: inline-block;
 }
 
-.carousel-navigator {
-    /* position: relative;*/
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
 #carousel button {
     width: 50px;
     height: 50px;
@@ -69,6 +62,7 @@ body {
 
 #next-btn {
     position: relative;
+    top: 0;
     transform: translateY(100%);
     z-index: 2;
 }
