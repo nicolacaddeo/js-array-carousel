@@ -15,39 +15,24 @@ body {
     //GENERALS RULES
 ************************/
 
-/***********************
-    UTILITIES
-************************/
-.flex {
-    display: flex;
-}
-
-/***********************
-    //UTILITIES
-************************/
 .container {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 #carousel {
     height: 50vh;
     position: relative;
-    text-align: center;
 }
 
 .image-container {
     height: 100%;
-    position: relative;
 }
 
 .image-container .item {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    position: absolute;
-    top: 0px;
-    left: 0px;
     display: none;
 }
 
@@ -55,20 +40,28 @@ body {
     display: inline-block;
 }
 
+/******** Buttons ********/
 #carousel button {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1rem;
 }
 
 #next-btn {
-    position: relative;
-    top: 0;
-    transform: translateY(100%);
+    position: absolute;
+    left: 50%;
     z-index: 2;
+    margin-top: 10px;
 }
 
 #previous-btn {
-    position: relative;
-    transform: translateY(-100%);
+    position: absolute;
+    left: 50%;
+    bottom: 0;
     z-index: 2;
+    margin-bottom: 10px;
 }
+
+/******** //Buttons ********/
